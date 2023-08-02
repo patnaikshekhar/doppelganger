@@ -2,5 +2,5 @@ build:
 	go build -o dg
 
 run: build
-	./dg fwd --all
+	sudo ./dg fwd --namespaces dg-test
 

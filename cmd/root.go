@@ -25,4 +25,5 @@ func Execute() {
 func init() {
 	rootCmd.AddCommand(forwardCmd)
 	rootCmd.AddCommand(listCmd)
+	rootCmd.AddCommand(killCmd)
 }
